@@ -1,0 +1,101 @@
+/* ----- Police import */
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900'); @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+
+/* ----- General settings */
+body
+{
+    background: #E6EFF6;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    line-height:25px;
+}
+
+
+/* ----- Cards settings */
+
+.card
+{
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5%;
+
+}
+
+/* ----- icons settings */
+
+img
+{
+    width: 25%;
+    height: auto;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+/* ----- h2 settings settings */
+
+h2
+{
+    margin: 30px;
+    font-weight: bold;
+    color: #616777;
+}
+
+/* ----- text settings */
+
+p
+{
+    margin-bottom: 20px;
+    color: #b9bcbd;
+}
+
+/* ----- Small line setting */
+
+.line
+{
+    border: 1px solid #E7E8EA;
+    margin: 20px 50px 20px 50px;
+}
+
+/* ----- Learn More button setting */
+
+.button
+{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #53c2ff;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #fff7f7;
+}
+.button:hover
+{
+    background-color: #b9bcbd;
+    color: #000000;
+
+}
+
+/* ----- Grid settings */
+
+.container
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+}
+/* ----- Responsive settings */
+
+@media (min-width: 600px) {
+    .container { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 900px) {
+    .container { grid-template-columns: repeat(4, 1fr); }
+}
+
